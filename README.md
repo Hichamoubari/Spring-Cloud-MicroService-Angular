@@ -29,7 +29,7 @@
 ![8-5](https://user-images.githubusercontent.com/75031773/206156639-a5bdf39f-01b9-4cca-9fe6-7551284f7a3d.PNG)
    ### - Affecter les rôles aux utilisateurs
 ![10](https://user-images.githubusercontent.com/75031773/206156704-33546253-0083-4a25-b18f-13a3d7853a64.PNG)
-   ### - Tester les différents modes d'authentification avec Postman en montrant les contenus de Access-Token, Refresh Token     
+   ### - Tester les différents modes d'authentification avec Postman/insomnia en montrant les contenus de Access-Token, Refresh Token     
 ![9-1](https://user-images.githubusercontent.com/75031773/205724854-72961a16-65eb-4982-a25b-5707e4ddab08.PNG)
 ![9-2](https://user-images.githubusercontent.com/75031773/205724873-8fefdcac-1b60-445b-93c1-198278e32ef2.PNG)
 ## 9. Sécuriser les micro-services et le frontend angular en déployant les adaptateurs Keycloak
