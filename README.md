@@ -8,7 +8,7 @@
 ![customer-service](https://user-images.githubusercontent.com/75031773/205723505-61f9022c-69ba-43fb-a254-c5a959b72a29.PNG)
 ![product-service](https://user-images.githubusercontent.com/75031773/205723531-89a605b4-c8bd-44dc-96bb-18cd2e27d7e9.PNG)
 4. Créer l'annuaire Eureka Discrovery Service
-![4](https://user-images.githubusercontent.com/75031773/205723193-5b152187-0a90-4074-8824-87f64d5a7d67.PNG)
+![4](https://user-images.githubusercontent.com/75031773/206153374-b83dbd56-ca6c-46a3-82c8-4c88a2fe4caa.PNG)
 5. Faire une configuration dynamique des routes de la gateway
 ![1](https://user-images.githubusercontent.com/75031773/205723128-ab05172b-8bc8-4de6-831f-a76db48c8bb4.PNG)
 ![2](https://user-images.githubusercontent.com/75031773/205723141-0260a1d1-f97f-40d9-a752-43c9a8f95b4c.PNG)
@@ -20,15 +20,15 @@
 ![7-3](https://user-images.githubusercontent.com/75031773/205723985-665b524a-38a8-4f54-a413-ba742d7851b8.PNG)
 Déployer le serveur keycloak :
      - Créer un Realm
-![8-6](https://user-images.githubusercontent.com/75031773/205724327-48311d49-c8b2-4d6e-8601-c95c398ee9c4.PNG)
+![8-6](https://user-images.githubusercontent.com/75031773/206153504-a56b3cbc-0507-4b9f-aeb9-272720ef082e.PNG)
      - Créer un client à sécuriser
-![8-3](https://user-images.githubusercontent.com/75031773/205724415-b7471000-d954-4ba5-becb-0e8e7866e925.PNG)
+![8-3](https://user-images.githubusercontent.com/75031773/206153568-29eb9e24-1427-4206-8717-86a42a2ed9b0.PNG)
      - Créer des utilisateurs
-![8-4](https://user-images.githubusercontent.com/75031773/205724515-408a4552-c77c-4492-a48d-7df88aa42193.PNG)
+![8-4](https://user-images.githubusercontent.com/75031773/206156516-add5cdcd-6942-4bfb-aaaa-92c02daa52a4.PNG)
      - Créer des rôles
-![8-5](https://user-images.githubusercontent.com/75031773/205724575-43666b6c-9fd7-4a41-a774-b1e49b9d5495.PNG)
+![8-5](https://user-images.githubusercontent.com/75031773/206156639-a5bdf39f-01b9-4cca-9fe6-7551284f7a3d.PNG)
      - Affecter les rôles aux utilisateurs
-![10](https://user-images.githubusercontent.com/75031773/205724693-bd663b06-7bd5-43b6-ab31-7b1a0fd0d103.PNG)
+![10](https://user-images.githubusercontent.com/75031773/206156704-33546253-0083-4a25-b18f-13a3d7853a64.PNG)
      - Tester les différents modes d'authentification avec Postman en montrant les contenus de Access-Token, Refresh Token     
 ![9-1](https://user-images.githubusercontent.com/75031773/205724854-72961a16-65eb-4982-a25b-5707e4ddab08.PNG)
 ![9-2](https://user-images.githubusercontent.com/75031773/205724873-8fefdcac-1b60-445b-93c1-198278e32ef2.PNG)
