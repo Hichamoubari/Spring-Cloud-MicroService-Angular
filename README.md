@@ -55,6 +55,10 @@ avec des Fonctionnalités supplémentaires
 ## 5. Créer une Page Frontend qui permet de présenter en temps réel les courbes qui montrent les résultats produits par le service du Data Analytics
 ![partie2-5](https://user-images.githubusercontent.com/75031773/213007137-6bb4dd82-1b78-4530-9f9a-eb2969cbd7f6.png)
 
+## Simulations :
+
+https://user-images.githubusercontent.com/75031773/213008573-5e05e025-2fdc-43dd-af52-149837c14088.mp4
+
 
 
 
