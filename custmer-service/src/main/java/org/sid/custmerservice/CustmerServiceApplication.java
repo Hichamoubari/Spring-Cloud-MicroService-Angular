@@ -8,6 +8,8 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.context.annotation.Bean;
 import org.springframework.data.rest.core.config.RepositoryRestConfiguration;
 
+import java.util.stream.Stream;
+
 @SpringBootApplication
 public class CustmerServiceApplication {
 
@@ -16,15 +18,16 @@ public class CustmerServiceApplication {
     }
 
     @Bean
-    CommandLineRunner start(CustomerRepository customerRepository, RepositoryRestConfiguration restConfiguration){
-        restConfiguration.exposeIdsFor(Customer.class);
+    CommandLineRunner start(CustomerRepository cr, RepositoryRestConfiguration r)
+    {
         return args -> {
-          customerRepository.save(new Customer(null,"Hicham","hicham@gmail.com"));
-          customerRepository.save(new Customer(null,"Ghita","ghita@gmail.com"));
-          customerRepository.save(new Customer(null,"Zahra","zahra@gmail.com"));
-          customerRepository.findAll().forEach(c->{
-              System.out.println(c);
-          });
+            r.exposeIdsFor(Customer.class);
+            Stream.of("Oubari","Hicham", "Anas", "Ghita").forEach(c -> {
+                Customer customer = new Customer();
+                customer.setEmail(c.toLowerCase()+"@gmail.com");
+                customer.setName(c.toUpperCase());
+                cr.save(customer);
+            });
         };
     }
 
