@@ -54,6 +54,10 @@ avec des Fonctionnalités supplémentaires
 ![partie2-4](https://user-images.githubusercontent.com/75031773/213007120-8eee557e-bca7-4485-bb81-c826da3673e4.png)
 ## 5. Créer une Page Frontend qui permet de présenter en temps réel les courbes qui montrent les résultats produits par le service du Data Analytics
 ![partie2-5](https://user-images.githubusercontent.com/75031773/213007137-6bb4dd82-1b78-4530-9f9a-eb2969cbd7f6.png)
+## 6. Déployer l'ensemble des services de l'application en utilisant des conteneur Docker : Créer les images Docker pour chaque service et et le fichier Docker-compose.yml qui permet de déployer toute l'application
+![image](https://user-images.githubusercontent.com/75031773/219880928-552138b1-a8cd-4c2e-a820-c522a41972fd.png)
+![image](https://user-images.githubusercontent.com/75031773/219880959-aa1c012b-8b8d-4260-8c89-90041d3cfaf2.png)
+
 
 ## Simulations :
 
