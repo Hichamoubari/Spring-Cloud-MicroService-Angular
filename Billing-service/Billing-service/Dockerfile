@@ -12,3 +12,4 @@ CMD ["java", "-jar", "/app/billing-service.jar"]
 
 # Expose the same port as the microservice
 EXPOSE 8083
+ 
