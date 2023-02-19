@@ -12,3 +12,4 @@ CMD ["java", "-jar", "/app/product-service.jar"]
 
 # Expose the same port as the microservice
 EXPOSE 8081
+ 
